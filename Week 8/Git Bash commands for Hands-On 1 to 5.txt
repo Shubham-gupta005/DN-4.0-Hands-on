@@ -1,0 +1,396 @@
+Shubham@LAPTOP-S6HV28OU MINGW64 ~
+$ git --version
+git version 2.50.0.windows.1
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+user.name=Shubham-gupta005
+user.email=shubuamgupta10@gmail.com
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~
+$ git commit
+fatal: not a git repository (or any of the parent directories): .git
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~
+$ git config --global core.editor "C:/Program Files/Notepad++/notepad++.exe"
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~
+$ git commit
+fatal: not a git repository (or any of the parent directories): .git
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+user.name=Shubham-gupta005
+user.email=shubuamgupta10@gmail.com
+core.editor=C:/Program Files/Notepad++/notepad++.exe
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~
+$ ls
+ AppData/
+'Application Data'@
+'Cisco Packet Tracer 6.2sv'/
+'Cisco Packet Tracer 8.2.2'/
+ Contacts/
+ Cookies@
+ DN-4.0-Hands-on/
+ Documents/
+ Downloads/
+ Favorites/
+ IdeaProjects/
+ IntelGraphicsProfiles/
+ Jedi/
+ Links/
+'Local Settings'@
+ Matrix_print_spriral_form.py
+ Microsoft/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{95b1f7ef-c140-11ef-8430-a098e91f04c8}.TM.blf
+ NTUSER.DAT{95b1f7ef-c140-11ef-8430-a098e91f04c8}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{95b1f7ef-c140-11ef-8430-a098e91f04c8}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Oracle/
+ Postman/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Spyder_Python/
+'Start Menu'@
+ Templates@
+ Videos/
+'WPS Cloud Files'/
+ making_spiral_matrix.py
+ node-v22.13.1-x64.msi
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~
+$ mkdir GitDemo
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~
+$ ls
+ AppData/
+'Application Data'@
+'Cisco Packet Tracer 6.2sv'/
+'Cisco Packet Tracer 8.2.2'/
+ Contacts/
+ Cookies@
+ DN-4.0-Hands-on/
+ Documents/
+ Downloads/
+ Favorites/
+ GitDemo/
+ IdeaProjects/
+ IntelGraphicsProfiles/
+ Jedi/
+ Links/
+'Local Settings'@
+ Matrix_print_spriral_form.py
+ Microsoft/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{95b1f7ef-c140-11ef-8430-a098e91f04c8}.TM.blf
+ NTUSER.DAT{95b1f7ef-c140-11ef-8430-a098e91f04c8}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{95b1f7ef-c140-11ef-8430-a098e91f04c8}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Oracle/
+ Postman/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Spyder_Python/
+'Start Menu'@
+ Templates@
+ Videos/
+'WPS Cloud Files'/
+ making_spiral_matrix.py
+ node-v22.13.1-x64.msi
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~
+$ cd GitDemo
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo
+$ git init
+Initialized empty Git repository in C:/Users/Shubham/GitDemo/.git/
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ echo "Welcome to Git!" > welcome.txt
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        welcome.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git add welcome.txt
+warning: in the working copy of 'welcome.txt', LF will be replaced by CRLF the next time Git touches it
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git commit -m "Initial commit of welcome.txt"
+[master (root-commit) 73b1e83] Initial commit of welcome.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 welcome.txt
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git remote add origin https://github.com/Shubham-gupta005/DN-4.0-Hands-on.git
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 250 bytes | 250.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/Shubham-gupta005/DN-4.0-Hands-on/pull/new/master
+remote:
+To https://github.com/Shubham-gupta005/DN-4.0-Hands-on.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ touch error.log
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ mkdir log
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ touch log/app.log
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git add .gitignore
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git commit -m "Add .gitignore to ignore log files and folders"
+[master 03eeba1] Add .gitignore to ignore log files and folders
+ 1 file changed, 2 insertions(+)
+ create mode 100644 .gitignore
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git checkout -b GitNewBranch
+Switched to a new branch 'GitNewBranch'
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (GitNewBranch)
+$ git branch
+* GitNewBranch
+  master
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (GitNewBranch)
+$ echo "This is a new feature" > feature.txt
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (GitNewBranch)
+$ git add feature.txt
+warning: in the working copy of 'feature.txt', LF will be replaced by CRLF the next time Git touches it
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (GitNewBranch)
+$ git commit -m "Added a new feature file"
+[GitNewBranch 93c7aeb] Added a new feature file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 feature.txt
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (GitNewBranch)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git merge GitNewBranch
+Updating 03eeba1..93c7aeb
+Fast-forward
+ feature.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 feature.txt
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git log --oneline --graph --decorate
+* 93c7aeb (HEAD -> master, GitNewBranch) Added a new feature file
+* 03eeba1 Add .gitignore to ignore log files and folders
+* 73b1e83 (origin/master) Initial commit of welcome.txt
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git branch -d GitNewBranch
+Deleted branch GitNewBranch (was 93c7aeb).
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ ^C
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git checkout -b GitWork
+Switched to a new branch 'GitWork'
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (GitWork)
+$ echo "This is the content from the GitWork branch." > hello.xml
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (GitWork)
+$ git status
+On branch GitWork
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hello.xml
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (GitWork)
+$ git add hello.xml
+warning: in the working copy of 'hello.xml', LF will be replaced by CRLF the next time Git touches it
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (GitWork)
+$ git commit -m "Added hello.xml to GitWork branch"
+[GitWork 0a6b1e6] Added hello.xml to GitWork branch
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello.xml
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (GitWork)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ echo "This is the conflicting content from the master branch." > hello.xml
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git add hello.xml
+warning: in the working copy of 'hello.xml', LF will be replaced by CRLF the next time Git touches it
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git commit -m "Added hello.xml with different content to master branch"
+[master e2bc0dc] Added hello.xml with different content to master branch
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello.xml
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git log --oneline --graph --decorate --all
+* e2bc0dc (HEAD -> master) Added hello.xml with different content to master branch
+| * 0a6b1e6 (GitWork) Added hello.xml to GitWork branch
+|/
+* 93c7aeb Added a new feature file
+* 03eeba1 Add .gitignore to ignore log files and folders
+* 73b1e83 (origin/master) Initial commit of welcome.txt
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git merge GitWork
+Auto-merging hello.xml
+CONFLICT (add/add): Merge conflict in hello.xml
+Automatic merge failed; fix conflicts and then commit the result.
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master|MERGING)
+$ git add hello.xml
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master|MERGING)
+$ git commit -m "Resolved merge conflict"
+[master 73d52a4] Resolved merge conflict
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git branch
+  GitWork
+* master
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git branch -d GitWork
+Deleted branch GitWork (was 0a6b1e6).
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git log --oneline --graph --decorate
+*   73d52a4 (HEAD -> master) Resolved merge conflict
+|\
+| * 0a6b1e6 Added hello.xml to GitWork branch
+* | e2bc0dc Added hello.xml with different content to master branch
+|/
+* 93c7aeb Added a new feature file
+* 03eeba1 Add .gitignore to ignore log files and folders
+* 73b1e83 (origin/master) Initial commit of welcome.txt
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git pull origin master
+From https://github.com/Shubham-gupta005/DN-4.0-Hands-on
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$ git push origin master
+Enumerating objects: 16, done.
+Counting objects: 100% (16/16), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (15/15), 1.52 KiB | 1.52 MiB/s, done.
+Total 15 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/Shubham-gupta005/DN-4.0-Hands-on.git
+   73b1e83..73d52a4  master -> master
+
+Shubham@LAPTOP-S6HV28OU MINGW64 ~/GitDemo (master)
+$
